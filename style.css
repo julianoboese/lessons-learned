@@ -8,10 +8,11 @@ header {
   top: 0;
   height: 80px;
   width: 100%;
-  background-color: #036B52;
+  background-color: #036b52;
   color: white;
   border-bottom: 8px solid;
-  border-color: #2FC18C;
+  border-color: #2fc18c;
+  z-index: 1;
 }
 
 nav {
@@ -21,6 +22,11 @@ nav {
   margin-right: 5%;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 nav ul {
   margin: 0;
 }
@@ -28,6 +34,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   padding: 0 20px;
+  color: white;
 }
 
 h1 {
@@ -39,7 +46,40 @@ h1 {
 }
 
 img {
-  margin: 90px 0 0;
   border-radius: 100%;
-  width: 200px;
+  width: 300px;
+  float: left;
+  padding-left: 20px 
+}
+
+table, th, td {
+  border: 2px solid #036b52;
+  border-collapse: collapse;
+}
+
+main {
+  margin-top: 100px;
+}
+
+div {
+  height: 300px;
+}
+
+table {
+  position: relative;
+  left: 20%;
+  top: 22.5px;
+  z-index: 0;
+}
+
+th {
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  background-color: #2fc18c;
+}
+
+td {
+  padding-right: 20px;
+  background-color: rgb(253, 251, 251)
 }
