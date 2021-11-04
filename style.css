@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-family: Work Sans, sans-serif;
 }
 
 header {
@@ -24,7 +25,12 @@ nav {
 
 a {
   color: white;
-  text-decoration: none;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10%;
+}
+
+a:hover {
+  color: #a0c9ba;
 }
 
 nav ul {
